@@ -12,10 +12,18 @@
 8. dubbo-container 容器模块：是一个 Standlone 的容器，以简单的 Main 加载 Spring 启动，因为服务通常不需要 Tomcat/JBoss 等 Web 容器的特性，没必要用 Web 容器去加载服务。
 9. dubbo-filter 过滤器模块：提供了内置的过滤器。
 10. dubbo-plugin 插件模块：提供了内置的插件。
-11. dubbo-demo 快速启动示例。
-12. dubbo-test 测试模块。
-13. bom
+11. dubbo-serialization 序列化模块
+12. dubbo-demo 快速启动示例。
+13. dubbo-test 测试模块。
+14. bom
   * dubbo-dependencies-bom/pom.xml 统一定义了 Dubbo 依赖的三方库的版本号
   * dubbo-bom/pom.xml 统一定义了 Dubbo 的版本号
   * dubbo/pom.xml ，Dubbo Parent Pom
   * dubbo/all/pom.xml ，Dubbo All Pom ，定义了 Dubbo 的打包脚本
+  
+TODO:
+1. dubbo-compatible
+2. dubbo-configcenter
+3. dubbo-distribution
+4. dubbo-metadata-report
+5. 
